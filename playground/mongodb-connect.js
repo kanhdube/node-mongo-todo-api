@@ -16,9 +16,9 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp',(err, db) => {
     //     console.log(JSON.stringify(result.ops[0]._id.getTimestamp()));
     // });
 
-    db.collection('Users').insertOne({
+    db.collection('Users2').insertOne({
         name : "kanhery",
-        age : 34,
+        age : 64,
         location : "Indore"
     },(err, result) => {
         if (err) {
